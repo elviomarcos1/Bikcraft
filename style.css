@@ -3,6 +3,17 @@
   --cor-primaria-escura: #900;
   --fundo-1: #f7f7f7;
   --fundo-2: #ffffff;
+  --texto: #000000;
+}
+
+:root {
+    --fundo-1: #111;
+    --fundo-2: #000;
+    --texto: #ffffff;
+    --cor-subtitulo: rgba(255, 255, 255, 0.2);
+  }
+
+@media (prefers-color-scheme: dark) {
 }
 
 body {
@@ -13,6 +24,7 @@ body {
   justify-items: center;
   margin-top: 60px;
   background-color: var(--fundo-1);
+  color: var(--texto);
 }
 
 img {
@@ -60,7 +72,7 @@ p {
   background: var(--fundo-2);
   padding: 1rem 2rem;
   border-radius: 4px;
-  color: #000000;
+  color: var(--texto);
   text-transform: uppercase;
   border: 2px solid var(--fundo-2);
 }
@@ -120,12 +132,11 @@ p {
 .subtitulo {
   font-size: 4rem;
   text-transform: uppercase;
-  color: rgba(0, 0, 0, 0.2);
+  color: var(--cor-subtitulo);
   text-align: right;
   padding: 40px;
   align-self: center;
   background-image: url("./img/onda.svg");
-  /* word-break: break-all; */
 }
 
 .vantagens {
