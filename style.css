@@ -4,16 +4,21 @@
   --fundo-1: #f7f7f7;
   --fundo-2: #ffffff;
   --texto: #000000;
+  --onda: url("./img/onda-clara.svg")
 }
 
-:root {
+
+
+@media (prefers-color-scheme: dark) {
+
+  :root {
     --fundo-1: #111;
     --fundo-2: #000;
     --texto: #ffffff;
     --cor-subtitulo: rgba(255, 255, 255, 0.2);
+    --onda: url("./img/onda-escura.svg")
   }
 
-@media (prefers-color-scheme: dark) {
 }
 
 body {
@@ -119,7 +124,7 @@ p {
 
 .botao {
   background: var(--cor-primaria);
-  color: var(--fundo-2);
+  color: #ffffff;
   padding: 1rem 2rem;
   border-radius: 4px;
   text-transform: uppercase;
@@ -136,7 +141,7 @@ p {
   text-align: right;
   padding: 40px;
   align-self: center;
-  background-image: url("./img/onda.svg");
+  background-image: var(--onda);
 }
 
 .vantagens {
