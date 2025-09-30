@@ -1,0 +1,14 @@
+@import 'global/global.css';
+@import './utilities/typography.css';
+@import './utilities/colors.css';
+@import 'global/header.css';
+
+/* Utilities */
+@import './utilities/components.css';
+
+/* Home */
+@import './home/introducao.css';
+
+
+
+
