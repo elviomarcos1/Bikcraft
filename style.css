@@ -47,6 +47,8 @@ img {
 }
 
 .header-menu a {
+    font-family: "Poppins";
+    font-weight: 400;
     position: relative;
     color: #ffffff;
     display: inline-block;
@@ -142,6 +144,8 @@ img {
 }
 
 .introducao h1 {
+    font-family: "Poppins";
+    font-weight: 600;
     margin-bottom: 32px;
     font-size: 64px;
     line-height: 1.125;
@@ -152,6 +156,8 @@ img {
 }
 
 .introducao p {
+    font-family: "Roboto";
+    font-weight: 400;
     margin-bottom: 20px;
     font-size: 24px;
     line-height: 1.5;
@@ -159,6 +165,8 @@ img {
 }
 
 .introducao a {
+    font-family: "Poppins";
+    font-weight: 600;
     display: inline-block;
     padding: 16px 32px;
     background: linear-gradient(#fff000, #f2a50c);
@@ -168,7 +176,6 @@ img {
     color: #332200;
     font-size: 18px;
     line-height: 1.33;
-    font-weight: bold;
 }
 
 .introducao a:hover {
