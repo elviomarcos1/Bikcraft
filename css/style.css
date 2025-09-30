@@ -7,7 +7,7 @@
 @import './utilities/components.css';
 
 /* Home */
-@import './home/introducao.css';
+@import './home/introduction.css';
 
 /* Bicicletas */
 @import './bikes/bikes-list.css';
