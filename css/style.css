@@ -9,7 +9,8 @@
 /* Home */
 @import 'home/introduction.css';
 @import 'home/technology.css';
-@import 'home/parceiros.css';
+@import 'home/partners.css';
+@import 'home/statement.css';
 
 /* Bicicletas */
 @import './bikes/bikes-list.css';
