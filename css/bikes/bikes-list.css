@@ -15,10 +15,7 @@
     margin-right: auto;
     margin-left: auto;
     overflow-x:  auto;
-}
-
-.bikes-list ul::-webkit-scrollbar {
-    display: none;
+    scrollbar-width: none;
 }
 
 .bikes-list li {
