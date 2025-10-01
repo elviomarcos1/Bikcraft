@@ -12,8 +12,11 @@
 @import 'home/partners.css';
 @import 'home/statement.css';
 
-/* Bicicletas */
+/* Bikes */
 @import './bikes/bikes-list.css';
+
+/* Insurer */
+@import 'insurer/insurer.css';
 
 
 
