@@ -43,6 +43,12 @@
     content: '”';
 }
 
+@media (min-width: 1200px) {
+  .statement img {
+    max-height: 520px;
+  }
+}
+
 @media (max-width: 800px) {
 
     .statement {
