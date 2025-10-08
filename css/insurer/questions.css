@@ -1,0 +1,13 @@
+.questions {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.questions h2 {
+    margin-bottom: 60px;
+}
+
+.questions dl > div {
+    padding: 20px;
+    border-radius: 4px;
+}
