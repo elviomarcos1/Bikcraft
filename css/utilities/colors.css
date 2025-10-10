@@ -3,7 +3,7 @@
     --color-1: #F7F7F7;
     --color-2: #EDEDED;
     --color-3: #DEDEDE;
-    --color-4: #CCCCCC;
+    --color-4: #cccccc;
     --color-5: #B2B2B2;
     --color-6: #9C9C9C;
     --color-7: #717171;
@@ -37,6 +37,10 @@
 
 .color-5 {
     color: var(--color-5);
+}
+
+.color-4 {
+    color: var(--color-4);
 }
 
 .color-6 {
