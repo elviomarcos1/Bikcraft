@@ -7,7 +7,7 @@
 
 /* Utilities */
 @import './utilities/components.css';
-@import './utilities/forms.css';
+@import './utilities/form.css';
 
 /* Home */
 @import 'home/introduction.css';
