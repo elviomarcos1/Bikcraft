@@ -111,15 +111,42 @@
     background: var(--color-0);
 }
 
-
-
 .budget-content h2,
 .budget-datas h2:nth-of-type(n + 2) {
     margin-top: 20px;
+}
+
+
+.budget-content {
+    display: none;
 }
 
 #bd-bikcraft:checked ~ #budget-bikcraft,
 #bd-insurer:checked ~ #budget-insurer {
     display: grid;
     gap: 20px;
+}
+
+.budget-details {
+    display: none;
+    background: var(--color-0);
+    padding: 20px;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 4px;
+    align-items: center;
+}
+
+.budget-details li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.budget-details li img {
+    width: 16px;
+    margin-right: 8px;
+}
+
+.budget-product input:checked + label + .budget-details  {
+    display: grid;
 }
