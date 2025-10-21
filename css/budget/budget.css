@@ -36,7 +36,7 @@
     align-content: start;
     gap: 20px;
     border-radius: 5px 0 0 5px;
-    background: var(--color-12);
+    background: var(--color-12) url("../../img/dec/bottom-left.svg") no-repeat bottom 20px left 20px;
 }
 
 .budget-product label {
@@ -108,7 +108,7 @@
 
 .budget-datas {
     border-radius: 0 5px 5px 0;
-    background: var(--color-0);
+    background: var(--color-0) url("../../img/dec/bottom-right.svg") no-repeat bottom 20px right 20px;
 }
 
 .budget-content h2,
@@ -168,6 +168,7 @@
 
     .budget-product {
         border-radius: 5px 5px 0 0;
+        background: var(--color-12);
     }
 
     .budget-datas {
