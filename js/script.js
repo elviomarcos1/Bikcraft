@@ -33,18 +33,30 @@ const questions = document.querySelectorAll('.questions button')
 function activeQuestion (event) {
     const question = event.currentTarget;
     const controls = question.getAttribute('aria-controls');
-    const response = document.getElementById(controls)
+    const response = document.getElementById(controls);
 
-    response.classList.toggle('active')
+    response.classList.toggle('active');
 
-    const active = response.classList.contains('active')
-    question.setAttribute('aria-expanded', active)
+    const active = response.classList.contains('active');
+    question.setAttribute('aria-expanded', active);
     
-    console.log(question)
 }
 
 function questionsEvent(question) {
-    question.addEventListener('click', activeQuestion)
+    question.addEventListener('click', activeQuestion);
 }
 
-questions.forEach(questionsEvent)
+questions.forEach(questionsEvent);
+
+// Bikes Gallery
+
+const gallery = document.querySelectorAll('.bike-img img');
+const galleryImg = document.querySelector('.bike-img');
+
+
+
+function galleryEvents(img) {
+    img.addEventListener('click', alterImage);
+}
+
+gallery.forEach(galleryEvents);
