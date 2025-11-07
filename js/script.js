@@ -18,6 +18,9 @@ const parameters = new URLSearchParams(location.search);
 
 function activeProduct(parameter) {
     const element = document.getElementById(parameter)
+    if (element) {
+        element.checked = true;
+    }
     console.log(element)
 }
 
