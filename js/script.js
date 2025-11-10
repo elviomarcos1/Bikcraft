@@ -53,7 +53,10 @@ questions.forEach(questionsEvent);
 const gallery = document.querySelectorAll('.bike-img img');
 const galleryImg = document.querySelector('.bike-img');
 
-
+function alterImage(event) {
+    const img = event.currentTarget;
+    galleryImg.prepend(img)
+}
 
 function galleryEvents(img) {
     img.addEventListener('click', alterImage);
