@@ -55,8 +55,10 @@ const galleryImg = document.querySelector('.bike-img');
 
 function alterImage(event) {
     const img = event.currentTarget;
-    galleryImg.prepend(img)
-}
+    const media = matchMedia("(min-width: 1000px)").matches;
+    if (media) {
+    galleryImg.prepend(img);
+}}
 
 function galleryEvents(img) {
     img.addEventListener('click', alterImage);
